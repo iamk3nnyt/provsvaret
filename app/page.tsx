@@ -13,10 +13,14 @@ export default function Home() {
             backgroundRepeat: "no-repeat",
           }}
         />
-        <div className="relative z-10 mt-10">
+        <div className="relative z-10 flex flex-col gap-y-10 mt-10">
           <h1 className="text-5xl lg:text-7xl text-[#192E54] tracking-tight lg:tracking-tighter font-medium max-w-4xl mx-auto text-center">
             Full-service provider in drug testing
           </h1>
+          <p className="text-center text-lg text-[#192E54] max-w-2xl mx-auto">
+            Together we create healthy, profitable companies by detecting,
+            preventing and treating drug problems in your workplace.
+          </p>
         </div>
       </div>
     </>
